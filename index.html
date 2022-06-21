@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/styles.scss">
+</head>
+<body>
+<h2>Товары</h2>
+<section class="header">
+    <div>
+        <input id="productName" placeholder="Название" type="text">
+        <input id="productDescription" placeholder="Описание" type="text">
+        <input id="productPrice" placeholder="Цена" type="number">
+    </div>
+    <button onclick="addProduct()">Добавить товар</button>
+    <button onclick="getList()" id="getList">Получить список товаров</button>
+</section>
+
+<div class="container">
+    <div class="card__container"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
